@@ -4,104 +4,382 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <title>Remember – Life & Reminders | Support</title>
+
   <style>
+    * {
+      box-sizing: border-box;
+    }
+
     body {
       margin: 0;
       background: #f3f7fc;
       color: #24344b;
-      font-family: Arial, sans-serif;
+      font-family: Arial, Helvetica, sans-serif;
       line-height: 1.7;
     }
+
     header {
       background: linear-gradient(120deg, #0756b2, #12a5b9);
       color: white;
       padding: 55px 20px;
       text-align: center;
     }
-    header h1 { margin: 0; font-size: 32px; }
-    main { max-width: 850px; margin: 30px auto; padding: 0 18px; }
+
+    header h1 {
+      margin: 0;
+      font-size: 32px;
+    }
+
+    header p {
+      margin: 10px 0 0;
+      font-size: 18px;
+    }
+
+    main {
+      max-width: 850px;
+      margin: 30px auto;
+      padding: 0 18px;
+    }
+
     section {
       background: white;
       border-radius: 14px;
       padding: 24px;
       margin-bottom: 18px;
-      box-shadow: 0 3px 14px #163a6012;
+      box-shadow: 0 3px 14px rgba(22, 58, 96, 0.08);
     }
-    h2 { color: #0756b2; margin-top: 0; }
-    a { color: #0756b2; }
-    footer { text-align: center; padding: 25px; color: #64748b; }
+
+    h2 {
+      color: #0756b2;
+      margin-top: 0;
+    }
+
+    a {
+      color: #0756b2;
+      font-weight: 600;
+      overflow-wrap: anywhere;
+    }
+
+    .contact-button {
+      display: inline-block;
+      background: #0756b2;
+      color: white;
+      padding: 12px 22px;
+      border-radius: 8px;
+      text-decoration: none;
+      margin-top: 8px;
+    }
+
+    .contact-button:hover {
+      background: #06438a;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      color: #64748b;
+      font-size: 14px;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        padding: 40px 18px;
+      }
+
+      header h1 {
+        font-size: 26px;
+      }
+
+      section {
+        padding: 20px;
+      }
+    }
   </style>
 </head>
+
 <body>
+
   <header>
     <h1>Remember – Life & Reminders</h1>
     <p>Customer Support & Help Center</p>
   </header>
 
   <main>
+
+    <!-- Welcome -->
     <section>
       <h2>Welcome to Remember Support</h2>
-      <p>We're here to help you organize birthdays,
-      appointments, medications, groceries, and
-      everyday tasks.</p>
+
+      <p>
+        We're here to help you stay organized and
+        remember what matters most.
+      </p>
+
+      <p>
+        Remember helps you manage birthdays,
+        appointments, medications, groceries,
+        important places, and everyday tasks.
+      </p>
     </section>
 
+    <!-- Customer Support -->
     <section>
       <h2>Contact Customer Support</h2>
-      <p>Need help with your account, reminders,
-      subscriptions, or app features?</p>
-      <p>Contact us through the support contact
-      information provided within the Remember app.</p>
+
+      <p>
+        Need help with your account, reminders,
+        subscriptions, or app features?
+      </p>
+
+      <p>
+        Our customer support team is available
+        by email:
+      </p>
+
+      <p>
+        <strong>
+          <a href="mailto:support@justisend.com">
+            support@justisend.com
+          </a>
+        </strong>
+      </p>
+
+      <a
+        class="contact-button"
+        href="mailto:support@justisend.com?subject=Remember%20App%20Support"
+      >
+        Email Customer Support
+      </a>
     </section>
 
+    <!-- Reminders -->
     <section>
       <h2>Reminders & Notifications</h2>
-      <p>Create an entry in the appropriate category
-      and save it. Where available, set a date and
-      reminder time.</p>
-      <p>To receive alerts on iPhone, open
-      Settings &gt; Notifications &gt; Remember
-      and enable Allow Notifications.</p>
+
+      <h3>How do I create a reminder?</h3>
+
+      <p>
+        Open Remember and select the category
+        where you want to create an entry.
+        Enter the details, choose a date or
+        reminder time where available, and save.
+      </p>
+
+      <h3>Why am I not receiving notifications?</h3>
+
+      <p>
+        On your iPhone, open:
+      </p>
+
+      <p>
+        <strong>
+          Settings &gt; Notifications &gt; Remember
+        </strong>
+      </p>
+
+      <p>
+        Enable Allow Notifications and review
+        your notification settings.
+      </p>
+
+      <p>
+        Also verify that your reminder has
+        the correct date and time.
+      </p>
     </section>
 
+    <!-- App Features -->
     <section>
-      <h2>Subscriptions</h2>
-      <p>Remember offers optional premium features.
-      Subscription pricing and terms are shown
-      inside the app before purchase.</p>
-      <p>To manage or cancel an Apple subscription,
-      open iPhone Settings &gt; your name &gt;
-      Subscriptions, then select Remember.</p>
-      <p>If a previous purchase is not recognized,
-      use Restore Purchases in the app, if available.</p>
+      <h2>Using Remember</h2>
+
+      <h3>Birthdays & Appointments</h3>
+
+      <p>
+        Save important dates and upcoming
+        appointments to help you stay organized.
+      </p>
+
+      <h3>Groceries & To-Do Lists</h3>
+
+      <p>
+        Create shopping lists and everyday
+        tasks so you can keep track of
+        what needs to be done.
+      </p>
+
+      <h3>Medication Reminders</h3>
+
+      <p>
+        Keep track of medication schedules
+        using reminder entries.
+      </p>
+
+      <p>
+        Remember is an organizational tool
+        and does not provide medical advice.
+      </p>
+
+      <h3>Voice Entry</h3>
+
+      <p>
+        If voice entry is available on your
+        device, allow microphone and speech
+        recognition permissions when prompted.
+      </p>
     </section>
 
+    <!-- Subscriptions -->
+    <section>
+      <h2>Premium Subscriptions</h2>
+
+      <p>
+        Remember offers optional Premium
+        features through in-app subscriptions.
+      </p>
+
+      <p>
+        Subscription pricing and billing
+        terms are displayed in the app
+        before you purchase.
+      </p>
+
+      <h3>How do I cancel my subscription?</h3>
+
+      <p>
+        On your iPhone:
+      </p>
+
+      <ol>
+        <li>Open Settings.</li>
+        <li>Tap your name.</li>
+        <li>Select Subscriptions.</li>
+        <li>Select Remember, if listed.</li>
+        <li>Tap Cancel Subscription.</li>
+      </ol>
+
+      <p>
+        Subscriptions purchased through Apple
+        are managed through your Apple Account.
+      </p>
+
+      <h3>Having trouble with Premium?</h3>
+
+      <p>
+        If a purchase is not recognized,
+        use Restore Purchases in the app
+        if that option is available.
+      </p>
+
+      <p>
+        For additional assistance, email
+        <a href="mailto:support@justisend.com">
+          support@justisend.com
+        </a>.
+      </p>
+    </section>
+
+    <!-- Account Help -->
+    <section>
+      <h2>Account & Sign-In Help</h2>
+
+      <h3>Forgot your password?</h3>
+
+      <p>
+        On the Remember sign-in screen,
+        select Forgot Password and follow
+        the instructions to reset it.
+      </p>
+
+      <h3>Cannot sign in?</h3>
+
+      <p>
+        Check your email address and password,
+        verify your internet connection,
+        and try again.
+      </p>
+
+      <p>
+        If the problem continues, contact
+        customer support.
+      </p>
+    </section>
+
+    <!-- Account Deletion -->
+    <section>
+      <h2>Account Deletion & Data Requests</h2>
+
+      <p>
+        If you wish to delete your Remember
+        account and associated personal data,
+        please contact our support team.
+      </p>
+
+      <p>
+        Email:
+        <a href="mailto:support@justisend.com?subject=Remember%20Account%20Deletion%20Request">
+          support@justisend.com
+        </a>
+      </p>
+
+      <p>
+        Include "Remember Account Deletion
+        Request" in the subject line and
+        identify the account email address.
+      </p>
+
+      <p>
+        Our support team will explain the
+        available deletion process and any
+        applicable data retention requirements.
+      </p>
+
+      <p>
+        Do not send your password or
+        sensitive personal documents by email.
+      </p>
+    </section>
+
+    <!-- Privacy -->
     <section>
       <h2>Privacy Policy</h2>
-      <p>Learn about account information, reminders,
-      purchases, and how your information is handled.</p>
-      <p><a href="privacy.html">Read our Privacy Policy</a></p>
+
+      <p>
+        Your privacy is important to us.
+        Learn about the information Remember
+        collects and how it is handled.
+      </p>
+
+      <p>
+        <a href="privacy.html">
+          Read Our Privacy Policy
+        </a>
+      </p>
     </section>
 
-    <section>
-      <h2>Account Deletion</h2>
-      <p>To request deletion of your Remember account
-      and associated data, contact customer support
-      using the contact method provided in the app.</p>
-      <p>Account deletion requests are handled
-      subject to applicable legal retention requirements.</p>
-    </section>
-
+    <!-- Terms -->
     <section>
       <h2>Terms of Use</h2>
-      <p><a href="terms.html">Read our Terms of Use</a></p>
+
+      <p>
+        Review the terms governing your
+        use of Remember.
+      </p>
+
+      <p>
+        <a href="terms.html">
+          Read Our Terms of Use
+        </a>
+      </p>
     </section>
+
   </main>
 
   <footer>
     &copy; 2026 Remember – Life & Reminders.
     All rights reserved.
   </footer>
+
 </body>
 </html>
